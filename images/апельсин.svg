@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 65.02 65.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_505);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_505" data-name="Безымянный градиент 505" x1="31.86" y1="102.32" x2="32.91" y2="-10.84" gradientUnits="userSpaceOnUse">
+      <stop offset=".35" stop-color="#f59e58" stop-opacity="0"/>
+      <stop offset=".37" stop-color="#f59e58" stop-opacity=".12"/>
+      <stop offset=".41" stop-color="#f59e58" stop-opacity=".32"/>
+      <stop offset=".45" stop-color="#f59e58" stop-opacity=".5"/>
+      <stop offset=".49" stop-color="#f59e58" stop-opacity=".66"/>
+      <stop offset=".53" stop-color="#f59e58" stop-opacity=".78"/>
+      <stop offset=".57" stop-color="#f59e58" stop-opacity=".88"/>
+      <stop offset=".62" stop-color="#f59e58" stop-opacity=".95"/>
+      <stop offset=".67" stop-color="#f59e58" stop-opacity=".99"/>
+      <stop offset=".73" stop-color="#f59e58"/>
+      <stop offset=".78" stop-color="#f29655"/>
+      <stop offset=".84" stop-color="#ec804d"/>
+      <stop offset=".92" stop-color="#e25d40"/>
+      <stop offset=".99" stop-color="#d83b34"/>
+    </linearGradient>
+  </defs>
+  <g id="_Слой_7" data-name="Слой 7">
+    <circle class="cls-1" cx="32.51" cy="32.51" r="32.51"/>
+  </g>
+</svg>

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eternity Digital</title>
+  <script defer src="js/form.js"></script>
+  <script defer src="js/sweetalert.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="Фавикон ED/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Фавикон ED/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="Фавикон ED/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="Фавикон ED/android-chrome-192x192.png">
+  <link rel="shortcut icon" href="Фавикон ED/favicon.ico">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Unbounded:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- AOS JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/sweetalert.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptiv.css">
+</head>
+
+<body class="animate__animated animate__fadeIn">
+
+  <div id="loadingIndicator" class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+
+  <header class="header">
+    <div class="container">
+
+      <nav class="nav">
+        <img class="logo" src="images/logo.svg" alt="">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link" href="#advantages">О нас</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#total-price">Возможности</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#services">Услуги</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#cases">Кейсы</a>
+          </li>
+          <li class="menu-item tel-link">
+            <a class="menu-link" href="tel:89290499267">+7 (929) 049-92-67</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <nav class="burger" role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <li><a class="menu-link" href="#advantages">О нас</a></li>
+        <li><a class="menu-link" href="#total-price">Возможности</a></li>
+        <li><a class="menu-link" href="#services">Услуги</a></li>
+        <li><a class="menu-link" href="#cases">Кейсы</a></li>
+        <li><a class="menu-link" href="tel:89290499267">+7 (929) 049-92-67</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main">
+    <section class="review-company">
+      <img class="bg-mountains parallax-bg" src="images/Горы_1.png">
+      <div class="container">
+        <div class="review-company__inner">
+
+          <img class="screen-table" src="images/экран.svg">
+          <img class="mini-circle-rotate-R" src="images/mini-circle-rotate.svg">
+          <img class="mini-circle-rotate-L" src="images/mini-circle-rotate.svg">
+          <img class="circle-rotate-svg" src="images/curcle-rotate.svg">
+          <img class="circle-rotate-svg-in" src="images/curcle-rotate-in.svg">
+          <img class="mini-circle-in-r" src="images/mini-circle-in.svg">
+          <img class="mini-circle-in-l" src="images/mini-circle-in.svg">
+          <img class="text-table-l" src="images/leed-text.svg">
+          <img class="text-table-r" src="images/text-table-r.svg">
+          <img class="figure-table-svg" src="images/фигура-на-доске.svg">
+          <img class="avito-table-svg" src="images/авито.svg">
+          <img class="lightbulb-table-svg" src="images/лампочка.svg">
+          <img class="review-man-svg parallax" src="images/Ученый.svg">
+
+          <div class="main-review-wrapper">
+            <h1 class="main-title">
+              АГЕНТСТВО <br> ИНТЕРНЕТ <br> МАРКЕТИНГА
+            </h1>
+            <h5 class="review-title">
+              Приводим потенциальных покупателей для малого и среднего бизнеса через инструменты маркетинга
+            </h5>
+            <a class="application-btn" href="#contacts">Оставить заявку <img src="images/arrow-btn.svg"></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <div class="advantages__inner">
+
+          <div class="fish-slider">
+
+            <div class="fish-star">
+              <img class="fish-star-img wow animate__animated animate__fadeIn" src="images/fish-star-img.svg">
+
+              <h4 class="fish-title fish-title-1"><span class="purp-color">8 лет</span> опыта работы <br> с Авито</h4>
+              <img class="star-glare star-glare-1" src="images/блик.png">
+
+              <h4 class="fish-title fish-title-2"><span class="purp-color">4 года</span> в дизайне</h4>
+              <img class="star-glare star-glare-2" src="images/блик.png">
+
+              <h4 class="fish-title fish-title-3"><span class="purp-color">3 года</span> в разработке <br> сайтов</h4>
+              <img class="star-glare star-glare-3" src="images/блик.png">
+
+              <h4 class="fish-title fish-title-4">Средний показатель <span class="purp-color">LTV*– 7 <br>
+                  месяцев</span></h4>
+              <img class="star-glare star-glare-4" src="images/блик.png">
+
+            </div>
+
+            <div class="slider-box wow animate__animated animate__fadeIn">
+
+              <h2 class="slider-title top-title" data-aos="flip-up">Почему выбирают <br> именно Нас</h2>
+
+              <div class="swiper text-slider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <p class="fish-slider-text">
+                      С <span class="purp-color">8-ми летним</span> опытом работы на Avito, мы являемся настоящими
+                      мастерами в области интернет-торговли.
+                      Наша экспертиза
+                      включает в себя все от эффективного размещения объявлений до оптимизации продаж, обеспечивая
+                      максимальную видимость и
+                      прибыльность для ваших товаров. Мы поможем не только привлечь внимание к вашим объявлениям, но и
+                      значительно увеличить
+                      объемы продаж, превращая каждое размещение в успешную сделку. Доверьтесь профессионалам, чтобы
+                      <span class="purp-color">ваш бизнес процветал на Avito</span>
+                    </p>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <p>
+                      С <span class="purp-color">4-летним</span> опытом в создании уникальных баннеров, инфографики,
+                      рекламных макетов, мы гарантируем
+                      высококлассное
+                      визуальное оформление, которое выделяет ваш бренд. Каждый проект — это сочетание креативности и
+                      стратегического подхода,
+                      направленного на повышение продаж и укрепление имиджа. Обратившись к нам, вы получите не только
+                      красоту, но и
+                      функциональность, призванную увеличить <span class="purp-color">ваши продажи и укрепить имидж
+                        компании</span>
+                    </p>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <p>
+                      С <span class="purp-color">3-летним</span> опытом в разработке веб-сайтов, мы специализируемся на
+                      создании сайтов, которые не
+                      только захватывают
+                      внимание, но и служат надежным инструментом для вашего бизнеса. Мы отражаем фирменный стиль вашей
+                      компании, превращая
+                      каждую страницу в притягательный и понятный ресурс для клиентов. Ваш сайт будет <span
+                        class="purp-color">не просто красивым</span>, но и <span class="purp-color">работающим на
+                        повышение продаж</span>
+                    </p>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <p>
+                      С средним показателем <span class="purp-color">LTV в 7 месяцев</span>, наша стратегия фокусируется
+                      на построении прочных и
+                      долгосрочных отношений <span class="purp-color">с каждым</span> клиентом. Мы умеем не только
+                      привлекать, но и удерживать аудиторию, обеспечивая ваш бизнес
+                      надежными партнерами
+                      на долгие месяцы. Позвольте нам помочь вам развивать отношения, которые способствуют устойчивому
+                      росту и долгосрочному
+                      успеху
+                    </p>
+                  </div>
+
+                </div>
+                <div class="swiper-button-custom-prev"><img src="images/arrow-btn.svg"></div>
+                <div class="swiper-button-custom-next"><img src="images/arrow-btn.svg"></div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="total-price" id="total-price">
+      <div class="container">
+        <div class="total-price__inner">
+
+          <img class="price-planet-1" src="images/planet-parallax.svg">
+          <img class="price-planet-2" src="images/planet-parallax-2.svg">
+
+          <h2 class="top-title price-title" data-aos="fade-up">Прокачай свой бизнес <br> с нами
+          </h2>
+
+          <p class="info-text" data-aos="fade-right" style="margin-bottom: 30px;">Наши тарифы разработаны специально для
+            вас. Они
+            включают в себя полный спектр
+            маркетинговых услуг, которые помогут вам
+            добиться роста продаж в кратчайшие сроки, при этом оставаясь экономичными и выгодными для вашего бизнеса</p>
+
+          <div class="swiper price-slider" data-aos="fade-up">
+            <div class="swiper-wrapper swiper-wrapper-price">
+
+              <div class="swiper-slide swiper-slide-price">
+                <img class="tariff-background" src="images/Card-price-start.svg">
+                <ul class="tariff-features">
+                  <li>Создание уникального дизайна для Авито магазина</li>
+                  <li>Инфографика + УТП</li>
+                  <li>Написание продающего текста</li>
+                  <li>SEO оптимизация объявлений</li>
+                  <li>Публикация до 6000 объявлений</li>
+                  <li>Разработка и внедрение стратегии</li>
+                  <li>Взаимодействие с личным менеджером Авито. Решение вопросов по аккаунту</li>
+                  <li>Репутация аккаунта</li>
+                </ul>
+                <button class="btn-filling" style="right: 88px;">
+                  от 45 000 ₽
+                  <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+                </button>
+              </div>
+
+              <div class="swiper-slide swiper-slide-price premium-card">
+                <img src="images/Card-price-premium.svg">
+                <ul class="tariff-features">
+                  <li>Создание уникального дизайна для Авито магазина</li>
+                  <li>Инфографика + УТП</li>
+                  <li>Написание продающего текста</li>
+                  <li>SEO оптимизация объявлений</li>
+                  <li>Публикация до 6000 объявлений</li>
+                  <li>Разработка и внедрение стратегии</li>
+                  <li>Взаимодействие с личным менеджером Авито. Решение вопросов по аккаунту</li>
+                  <li>Репутация аккаунта</li>
+                  <li>Ведение рекламной компании</li>
+                  <li>Подключение Call Tracking</li>
+                  <li>Фотограф для рекламной продукции (согласовывается индивидуально)</li>
+                  <li>Внедрение CRM</li>
+                </ul>
+                <button class="btn-filling" style="right: 88px;">
+                  от 120 000 ₽
+                  <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+                </button>
+              </div>
+
+              <div class="swiper-slide swiper-slide-price">
+                <img src="images/Card-price-extended.svg">
+                <ul class="tariff-features">
+                  <li>Создание уникального дизайна для Авито магазина</li>
+                  <li>Инфографика + УТП</li>
+                  <li>Написание продающего текста</li>
+                  <li>SEO оптимизация объявлений</li>
+                  <li>Публикация до 18 000 объявлений</li>
+                  <li>Разработка и внедрение стратегии</li>
+                  <li>Взаимодействие с личным менеджером Авито. Решение вопросов по аккаунту</li>
+                  <li>Репутация аккаунта</li>
+                  <li>Ведение рекламной компании</li>
+                  <li>Подключение Call Tracking</li>
+                </ul>
+                <button class="btn-filling" style="right: 88px;">
+                  от 70 000 ₽
+                  <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+                </button>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__inner">
+
+          <h2 class="top-title price-title" data-aos="fade-up">Услуги для продвижения <br> Вашего
+            бизнеса</h2>
+
+          <p class="info-text" data-aos="fade-right" style="margin-bottom: 30px;">Обеспечиваем комплексное продвижение
+            бизнеса:
+            от разработки сайтов до контекстной рекламы
+            и SEO-оптимизации. Наша
+            команда специализируется на создании максимально эффективных стратегий для вашего бизнеса, используя
+            инновационные
+            методы. Ваш успех - наша цель, и мы готовы предложить индивидуальный подход для достижения высоких
+            результатов</p>
+
+          <div class="swiper price-slider" data-aos="fade-up">
+            <div class="swiper-wrapper swiper-wrapper-price">
+
+              <div class="swiper-slide swiper-slide-price">
+                <img src="images/service-slide-1.svg">
+                <button class="btn-filling">
+                  от 15 000 ₽
+                  <span class="btn-inner"><img src="images/arrow-btn.svg"></span>
+                </button>
+              </div>
+
+              <div class="swiper-slide swiper-slide-price">
+                <img src="images/service-slide-2.svg">
+                <button class="btn-filling">
+                  от 5 000 ₽
+                  <span class="btn-inner"><img src="images/arrow-btn.svg"></span>
+                </button>
+              </div>
+
+              <div class="swiper-slide swiper-slide-price">
+                <img src="images/service-slide-3.svg">
+                <button class="btn-filling">
+                  от 10 000 ₽
+                  <span class="btn-inner"><img src="images/arrow-btn.svg"></span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="reviews panel">
+      <img class="mountains-parallax" src="images/img_mountains.png">
+      <div class="container">
+        <div class="reviews__ineer">
+
+          <div class="reviews-card reviews-card-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <img src="images/reviews-card.svg">
+            <img class="reviews-lantern" src="images/flashlight-bottom.svg">
+            <p class="reviews-text">
+              Замечательная команда. Сделала результат! Нашли ошибки в объявлениях и в оформлении, всё исправили,
+              поправили. Заявок
+              стало больше, что не может ни радовать!
+            </p>
+          </div>
+
+          <div class="reviews-card reviews-card-2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <img src="images/reviews-card.svg">
+            <img class="reviews-lantern" src="images/flashlight-bottom.svg">
+            <p class="reviews-text">
+              Помогли с нуля поднять наш магазин. Понравился подход к работе и поддержка связи в любое время дня,
+              настроили хорошую
+              рекламу, есть положительная динамика. Спасибо!
+            </p>
+          </div>
+
+          <div class="reviews-card reviews-card-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <img src="images/reviews-card.svg">
+            <img class="reviews-lantern" src="images/flashlight-bottom.svg">
+            <p class="reviews-text">
+              Спасибо вашей команде! Слаженная работа, поддержка по возникающим вопросам, вовлеченность и отличные
+              результаты - малая
+              часть того что хотелось бы сказать. Советую обращаться именно к ним!
+            </p>
+          </div>
+
+          <div class="reviews-card reviews-card-4" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <img src="images/reviews-card.svg">
+            <img class="reviews-lantern" src="images/flashlight-bottom.svg">
+            <p class="reviews-text">
+              Помогли определиться со стратегией. Была очень нужна помощь авитолога. Результат показал себя очень
+              быстро! Спасибо
+              большое за услугу!!!
+            </p>
+          </div>
+
+          <div class="reviews-card reviews-card-5" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <img src="images/reviews-card.svg">
+            <img class="reviews-lantern" src="images/flashlight-bottom.svg">
+            <p class="reviews-text">
+              Благодарю за отличную консультацию! Профессионал своего дела! Ответственный подход,адекватная стоимость и
+              приятное
+              общение. Рекомендую!
+            </p>
+          </div>
+
+          <div class="reviews-card reviews-card-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <img src="images/reviews-card.svg">
+            <img class="reviews-lantern" src="images/flashlight-bottom.svg">
+            <p class="reviews-text">
+              Нужна была помощь по некоторым вопросам, которые вызвали у меня затруднения. Я решил обратиться сюда. Мне
+              сразу же
+              ответили, мы все обсудили и я получил качественные ответы на мои вопросы. Очень доволен, рекомендую
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="cases" id="cases">
+      <div class="container">
+
+        <h2 class="top-title price-title" style="color: black;" data-aos="fade-up">Кейсы</h2>
+
+        <p class="info-text" data-aos="fade-right" style="color: black; margin-bottom: 30px;">Здесь
+          представлены часть наших кейсов с кратким
+          описанием проделанной работы и аналитикой, где вы можете увидеть
+          затраченные бюджеты и результат в лидах (звонках/сообщениях) на площадке Avito</p>
+
+      </div>
+
+      <div class="swiper swiper-cases" data-aos="fade-up">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide swiper-slide-cases">
+            <div class="content">
+              <h3>01 / <span class="purp-color">05</span></h3>
+              <img src="images/gruz.jpg" class="top-image">
+              <h3>Грузоперевозки</h3>
+              <p>Результат работы за 1 месяц</p>
+              <ul>
+                <li>Создали аккаунт, проработали стратегию развития с нуля</li>
+                <li>В первый месяц работы получили 350 лидов</li>
+                <li>Снизили стоимость лида до 70 рублей</li>
+              </ul>
+            </div>
+            <a class="btn-filling btn-a" target="_blank"
+              href="https://www.avito.ru/user/e4fed6076659f2990e9e903b50889e85/profile/all/predlozheniya_uslug?src=sharing&sellerId=e4fed6076659f2990e9e903b50889e85">
+              Узнать больше
+              <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+            </a>
+          </div>
+
+          <div class="swiper-slide swiper-slide-cases">
+            <div class="content">
+              <h3>02 / <span class="purp-color">05</span></h3>
+              <img src="images/avtopalatki.jpg" class="top-image">
+              <h3>Автопалатки</h3>
+              <p>Результат работы за 1 месяц</p>
+              <ul>
+                <li>Выявили ключевые ценности клиентов</li>
+                <li>В первый месяц работы получили 47 лидов</li>
+                <li>Заняли первые позиции в выдаче в 5-ти городах</li>
+              </ul>
+            </div>
+            <a class="btn-filling btn-a" target="_blank"
+              href="https://www.avito.ru/user/e4fed6076659f2990e9e903b50889e85/profile/all/predlozheniya_uslug?src=sharing&sellerId=e4fed6076659f2990e9e903b50889e85">
+              Узнать больше
+              <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+            </a>
+          </div>
+
+          <div class="swiper-slide swiper-slide-cases">
+            <div class="content">
+              <h3>03 / <span class="purp-color">05</span></h3>
+              <img src="images/ckining.jpg" class="top-image">
+              <h3>Клининг</h3>
+              <p>Результат работы за 1 месяц</p>
+              <ul>
+                <li>Увеличили охват аудитории вдвое</li>
+                <li>Помогли выйти с региона на страну</li>
+                <li>Снизили стоимость лида до 220 рублей</li>
+              </ul>
+            </div>
+            <a class="btn-filling btn-a" target="_blank"
+              href="https://www.avito.ru/user/e4fed6076659f2990e9e903b50889e85/profile/all/predlozheniya_uslug?src=sharing&sellerId=e4fed6076659f2990e9e903b50889e85">
+              Узнать больше
+              <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+            </a>
+          </div>
+
+          <div class="swiper-slide swiper-slide-cases">
+            <div class="content">
+              <h3>04 / <span class="purp-color">05</span></h3>
+              <img src="images/stroyles.jpg" class="top-image">
+              <h3>Строительные леса</h3>
+              <p>Результат работы за 1 месяц</p>
+              <ul>
+                <li>Подняли показатели до 4-10 лидов в день</li>
+                <li>Проработали стратегию развития с нуля</li>
+                <li>Переупаковали визуал, настроили аккаунт под формат магазина, добавили продуктовую линейку</li>
+              </ul>
+            </div>
+            <a class="btn-filling btn-a" target="_blank"
+              href="https://www.avito.ru/user/e4fed6076659f2990e9e903b50889e85/profile/all/predlozheniya_uslug?src=sharing&sellerId=e4fed6076659f2990e9e903b50889e85">
+              Узнать больше
+              <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+            </a>
+          </div>
+
+          <div class="swiper-slide swiper-slide-cases">
+            <div class="content">
+              <h3>05 / <span class="purp-color">05</span></h3>
+              <img src="images/metalo4.jpg" class="top-image">
+              <h3>Металочерепица</h3>
+              <p>Результат работы за 1 месяц</p>
+              <ul>
+                <li>Заняли первые позиции в выдачи на Авито по Москве и МО</li>
+                <li>Уменьшили стоимость Лида с 400 рублей до 124 рублей</li>
+                <li>Получили конверсию в 2 раза выше рыночной</li>
+              </ul>
+            </div>
+            <a class="btn-filling btn-a" target="_blank"
+              href="https://www.avito.ru/user/e4fed6076659f2990e9e903b50889e85/profile/all/predlozheniya_uslug?src=sharing&sellerId=e4fed6076659f2990e9e903b50889e85">
+              Узнать больше
+              <span class="btn-inner"><img src="images/arrow-btn.svg" alt=""></span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <img class="img-contacts wow animate__animated animate__fadeIn" src="images/contacts-left-image.jpg" alt="">
+
+          <form class="contacts-form">
+
+            <h2 class="modal-title">ЗАПОЛНИТЕ ФОРМУ</h2>
+
+            <p class="modal-text">Мы с вами свяжемся</p>
+
+            <div>
+              <input class="contact-input name" type="text" name="name" placeholder="Ваше имя" required />
+            </div>
+
+            <div>
+              <input class="contact-input phone" type="tel" name="phone" required placeholder="Номер телефона" />
+            </div>
+
+            <div>
+              <input class="contact-input" type="email" name="mail" placeholder="E-mail" required>
+            </div>
+
+            <button class="form-btn" id="form-btn" type="submit">Отправить</button>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer-nav-logo">
+          <div class="footer-logo">
+            <img src="images/logo.svg">
+            <h6>EternityDigital</h6>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="footer-nav">
+            <ul class="footer-menu-list">
+              <li class="footer-munu-item">
+                <a class="footer-menu-link" href="#advantages">О нас</a>
+              </li>
+
+              <li class="footer-munu-item">
+                <a class="footer-menu-link" href="#total-price">Возможности</a>
+              </li>
+
+              <li class="footer-munu-item">
+                <a class="footer-menu-link" href="#services">Услуги</a>
+              </li>
+
+              <li class="footer-munu-item">
+                <a class="footer-menu-link" href="#cases">Кейсы</a>
+              </li>
+            </ul>
+            <a class="email-footer" href="">Eternity257@yandex.ru</a>
+            <a class="policy" href="">Политика конфиденциальности</a>
+          </div>
+        </div>
+
+        <div class="footer-soc-copy">
+          <div class="footer-social">
+            <a href="https://vk.com/eternitydigitalmarketing" target="_blank"><img src="images/vk-logo.png"></a>
+            <a href="tel:89290499267"><img src="images/whatsupp-logo.png"></a>
+            <a href="https://t.me/Eternity_News" target="_blank"><img src="images/tg-logo.png"></a>
+            <a href="https://www.youtube.com/@Eternity257" target="_blank"><img src="images/YT-logo.png"></a>
+          </div>
+          <div class="copyright">© 2023 Eternity Digital. Все права защищены</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Модальное окно для изображения -->
+  <div class="image-modal" id="imageModal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/script.js"></script>
+  <script src="js/parallax.js"></script>
+</body>
+
+</html>
